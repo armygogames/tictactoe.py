@@ -2,7 +2,7 @@ Hi, this is my first Github Repository, I'm currently a newbie at coding and I m
 although the bot isn't even a bot and is just putting tiles in random place, but it's still fun to play with it if you have no other people to play with (this is subject to change)
 and the cool thing about the bot is when you lose, the bot will roast you with some kind of Passive aggressive insults
 
-so, Introducing! Tic Tac Toe : Command Prompt Edition
+so, Introducing! Tic Tac Toe : Command Prompt Edition,
 the game's mechanic is a bit complicated, it uses the Coordinate Geometry method
 
 ![image](https://github.com/armygogames/tictactoe.py/assets/141536305/2e383065-8ac8-42df-9a62-a06a276585a5)
