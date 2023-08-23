@@ -62,7 +62,7 @@ def showGame():
         print("  0 1 2")
         print(" ")
 
-def roasts():
+def insult():
     insults = [
     "Looks like the bot just outplayed you!",
     "I guess binary is more your opponent's language.",
@@ -166,7 +166,7 @@ while True:
             if winner!=None:
                 showGame()
                 if mode == 0:
-                    print("Tile %s has won the game!" % (winner)) if winner == tile.upper() else print(roasts())
+                    print("Tile %s has won the game!" % (winner)) if winner == tile.upper() else print(insult())
                 else:print("Tile %s has won the game!" % (winner))
                 print(" ")
                 sleep(2)
@@ -184,7 +184,7 @@ while True:
             winner = check()
             if winner!=None:
                 if mode == 0:
-                    print("Tile %s has won the game!" % (winner)) if winner == tile.upper() else print(roasts())
+                    print("Tile %s has won the game!" % (winner)) if winner == tile.upper() else print(insult())
                 else:print("Tile %s has won the game!" % (winner))
                 print(" ")
                 sleep(2)
