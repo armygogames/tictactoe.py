@@ -87,6 +87,7 @@ def insult():
     "Your defeat is the bot's greatest achievement.",
     "Losing to a bot is just a glimpse of the future. Hello, AI overlords!",
     "Bot: Crushing dreams since its last update.",
+    "losing to a bot just means you're providing valuable training data. (in this case, you aren't)",
     "At least bots don't gloat about their victories. Oh, wait..."]
     return choice(insults)
 tile = None
