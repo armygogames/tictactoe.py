@@ -27,15 +27,19 @@ not soon after you write the first tile, the bot will write his tile, the bot wa
 and the game goes on until you win/lose/tie
 
 winning game
+
 ![image](https://github.com/armygogames/tictactoe.py/assets/141536305/30837e1a-98b9-4cca-a218-fe2692853573)
 
 losing game (insults can vary)
+
 ![image](https://github.com/armygogames/tictactoe.py/assets/141536305/3f12665b-79a4-4506-81a8-36944cc7ed32)
 
 tie game
+
 ![image](https://github.com/armygogames/tictactoe.py/assets/141536305/db4663cf-9c43-43b0-83ad-3397d144ff01)
 
-while the Player vs Player Mode, works almost the same as bot
+while the Player vs Player Mode, works almost the same as bot.
+
 ![image](https://github.com/armygogames/tictactoe.py/assets/141536305/5937c141-be3f-49fa-bf5c-75670fb67699)
 
 in this case, Player 1 moves the tile "O" while the second moves the tile "X" until one of them wins/tie
