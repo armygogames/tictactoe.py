@@ -1,5 +1,5 @@
 Hi, this is my first Github Repository, I'm currently a newbie at coding and I made this cool tictactoe game where you can play with a bot or a player
-although the bot isn't even a bot and is just putting tiles in random place, but it's still fun to play with it if you have no other people to play with (this is subject to change)
+although the bot isn't even a bot and is just putting tiles in random place (this is subject to change), but it's still fun to play with it if you have no other people to play with.
 and the cool thing about the bot is when you lose, the bot will roast you with some kind of Passive aggressive insults
 
 so, Introducing! Tic Tac Toe : Command Prompt Edition,
