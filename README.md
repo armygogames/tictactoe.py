@@ -45,6 +45,6 @@ while the Player vs Player Mode, works almost the same as bot.
 in this case, Player 1 moves the tile "O" while the second moves the tile "X" until one of them wins/tie
 or, if you prefer, you can play by yourself for maybe some kind of training or whatever it is.
 
-That's it for the game, it may be not the best, but it was the best project i've worked on so, i wanted to share it with you guys.
+That's it for the game, it may not be the best, but it was the best project i've worked on so, i wanted to share it with you guys.
 
 Thanks!
