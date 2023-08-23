@@ -21,10 +21,12 @@ if you put anything that isn't the game's tile, an ouput will tell an example of
 
 in this case, i'll put 00 and see where it goes.
 
-![image](https://github.com/armygogames/tictactoe.py/assets/141536305/aa6fcc44-79e8-49fa-9886-0ad8cc83eb43)
+![image](https://github.com/armygogames/tictactoe.py/assets/141536305/c5ce797f-df2b-44bd-9c1e-d5687ad975f7)
 
 not soon after you write the first tile, the bot will write his tile, the bot was delayed for satisfaction purposes
 and the game goes on until you win/lose/tie
+
+![image](https://github-production-user-asset-6210df.s3.amazonaws.com/141536305/262688880-aa6fcc44-79e8-49fa-9886-0ad8cc83eb43.png)
 
 winning game
 
