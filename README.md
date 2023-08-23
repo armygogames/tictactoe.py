@@ -9,7 +9,7 @@ the game's mechanic is a bit complicated, it uses the Coordinate Geometry method
 
 so, first, when you start the python game, you'll be greeted with an input to choose between gamemodes
 
-type BOT if you want to play with a bot, and type PLR if you want to play with another player. (or type anything to randomly choose any of the modes)
+type BOT if you want to play with a bot, and type PLR if you want to play with the second person. (or type anything to randomly choose any of the modes)
 
 ![image](https://github.com/armygogames/tictactoe.py/assets/141536305/2c0b70e4-d683-4b68-b0d6-929f9d4613e5)
 
