@@ -62,34 +62,32 @@ def showGame():
         print("  0 1 2")
         print(" ")
 
-def insult():
-    insults = [
-    "Looks like the bot just outplayed you!",
-    "I guess binary is more your opponent's language.",
-    "Congratulations, you made the bot's day!",
-    "Losing to a bot? It's like losing to a toaster.",
-    "Don't worry, bots have been training for this moment.",
-    "The bot just sent its regards... and a smirk emoji.",
-    "Bot: 1, You: 0. Better luck next time!",
-    "Well, at least you didn't lose to a vacuum cleaner.",
-    "Roses are red, violets are blue, lost to a bot? Yep, that's true.",
-    "Remember, the bot doesn't even need coffee to function.",
-    "Losing to a bot is like getting beat by a calculator.",
-    "The bot's victory dance is truly an algorithmic marvel.",
-    "Losing to a bot means you're officially AI-approved.",
-    "The bot told me to tell you it's 'feeling electric.'",
-    "Losing to a bot builds character... or binary code.",
-    "Don't stress, even Shakespeare lost to a typewriter once.",
-    "Bot: Just doing its job. You: Well, you tried.",
-    "They say the bot is training for the Olympics... in the digital realm.",
-    "Losing to a bot? You just got schooled by algorithms.",
-    "The bot said it's happy to be your virtual mentor.",
-    "Your defeat is the bot's greatest achievement.",
-    "Losing to a bot is just a glimpse of the future. Hello, AI overlords!",
-    "Bot: Crushing dreams since its last update.",
-    "losing to a bot just means you're providing valuable training data. (in this case, you aren't)",
-    "At least bots don't gloat about their victories. Oh, wait..."]
-    return choice(insults)
+insults = [
+"Looks like the bot just outplayed you!",
+"I guess binary is more your opponent's language.",
+"Congratulations, you made the bot's day!",
+"Losing to a bot? It's like losing to a toaster.",
+"Don't worry, bots have been training for this moment.",
+"The bot just sent its regards... and a smirk emoji.",
+"Bot: 1, You: 0. Better luck next time!",
+"Well, at least you didn't lose to a vacuum cleaner.",
+"Roses are red, violets are blue, lost to a bot? Yep, that's true.",
+"Remember, the bot doesn't even need coffee to function.",
+"Losing to a bot is like getting beat by a calculator.",
+"The bot's victory dance is truly an algorithmic marvel.",
+"Losing to a bot means you're officially AI-approved.",
+"The bot told me to tell you it's 'feeling electric.'",
+"Losing to a bot builds character... or binary code.",
+"Don't stress, even Shakespeare lost to a typewriter once.",
+"Bot: Just doing its job. You: Well, you tried.",
+"They say the bot is training for the Olympics... in the digital realm.",
+"Losing to a bot? You just got schooled by algorithms.",
+"The bot said it's happy to be your virtual mentor.",
+"Your defeat is the bot's greatest achievement.",
+"Losing to a bot is just a glimpse of the future. Hello, AI overlords!",
+"Bot: Crushing dreams since its last update.",
+"losing to a bot just means you're providing valuable training data. (in this case, you aren't)",
+"At least bots don't gloat about their victories. Oh, wait..."]
 tile = None
 enemyTile = None
 
@@ -167,7 +165,7 @@ while True:
             if winner!=None:
                 showGame()
                 if mode == 0:
-                    print("Tile %s has won the game!" % (winner)) if winner == tile.upper() else print(insult())
+                    print("Tile %s has won the game!" % (winner)) if winner == tile.upper() else print(choice(insults))
                 else:print("Tile %s has won the game!" % (winner))
                 print(" ")
                 sleep(2)
@@ -185,7 +183,7 @@ while True:
             winner = check()
             if winner!=None:
                 if mode == 0:
-                    print("Tile %s has won the game!" % (winner)) if winner == tile.upper() else print(insult())
+                    print("Tile %s has won the game!" % (winner)) if winner == tile.upper() else print(choice(insults))
                 else:print("Tile %s has won the game!" % (winner))
                 print(" ")
                 sleep(2)
